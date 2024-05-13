@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+ 
+    <title>Modelo</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Seja bem vindo à nossa loja!!!!
+        </h1>
+        </div>
+      <h2>Clique nesses botões para ter acesso aos catálogos</h2>
+      <div id="menu">
+        <div class="row">
+          <div class="col-lg-2 col-md-6 col-sm-12"><button id="vestidos" class="btn btn-primary btn-lg">Vestidos</button></div>
+          <div class="col-lg-2 col-md-6 col-sm-12"><button id="sapatos" class="btn btn-primary btn-lg">Sapatos</button></div>
+          <div class="col-lg-2 col-md-6 col-sm-12"><button id="calcas" class="btn btn-primary btn-lg">Calças</button></div>
+          <div class="col-lg-2 col-md-6 col-sm-12"><button id="camisetas" class="btn btn-primary btn-lg">Camisetas</button></div>
+          <div class="col-lg-2 col-md-6 col-sm-12"><button id="tabela" class="btn btn-primary btn-lg">Disponibilidade</button></div>
+        </div>
+      </div>
+      
+      <script>
+      document.getElementById("vestidos").addEventListener("click", function() {
+        window.location.href = "formulario.html";
+      });
+      
+      document.getElementById("sapatos").addEventListener("click", function() {
+        window.location.href = "formulario.html";
+      });
+      
+      document.getElementById("calcas").addEventListener("click", function() {
+        window.location.href = "formulario.html";
+      });
+      
+      document.getElementById("camisetas").addEventListener("click", function() {
+        window.location.href = "formulario.html";
+      });
+      
+      document.getElementById("tabelas").addEventListener("click", function() {
+        window.location.href = "formulario.html";
+      });
+      </script>
+    
+ 
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
